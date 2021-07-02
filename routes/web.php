@@ -26,6 +26,9 @@ Route::get('/michael/adetona/{userid}/{password}', function($userid, $password){
 });
 Route::get('/resource', [PagesController::class, 'resource']);
 Auth::routes();
+Route::get('redtokenomics', function(){
+    return view('redtokinomics');
+});
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

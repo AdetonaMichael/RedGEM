@@ -16,5 +16,8 @@ class PagesController extends Controller
     public function resource(){
         return view('resource');
     }
+    public function redtokinomics(){
+        return view('redtokinomics');
+    }
 
 }
