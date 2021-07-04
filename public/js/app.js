@@ -1848,7 +1848,54 @@ var menu = document.querySelector('.mobile-menu'); // add event listener
 
 btn.addEventListener("click", function () {
   menu.classList.toggle("hidden");
-});
+}); // counter codes
+
+var counters = document.querySelectorAll('.counter');
+var speed = 1500; // The lower the slower
+
+counters.forEach(function (counter) {
+  var updateCount = function updateCount() {
+    var target = +counter.getAttribute('data-target');
+    var count = +counter.innerText; // Lower inc to slow and higher to slow
+
+    var inc = target / speed; // console.log(inc);
+    // console.log(count);
+    // Check if target is reached
+
+    if (count < target) {
+      // Add inc to count and output in counter
+      counter.innerText = count + inc; // Call function every ms
+
+      setTimeout(updateCount, 1);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCount();
+}); // Date count down code
+
+var countdown = function countdown() {
+  var countDate = new Date("September 24, 2021 00:00:00").getTime();
+  var now = new Date().getTime();
+  var gap = countDate - now; // How does time work exactly ?
+
+  var second = 1000;
+  var minute = second * 60;
+  var hour = minute * 60;
+  var day = hour * 24; // Calculating it
+
+  var textDay = Math.floor(gap / day);
+  var textHour = Math.floor(gap % day / hour);
+  var textMinute = Math.floor(gap % hour / minute);
+  var textSecond = Math.floor(gap % minute / second);
+  document.querySelector('.day').innerText = textDay;
+  document.querySelector('.hour').innerText = textHour;
+  document.querySelector('.minute').innerText = textMinute;
+  document.querySelector('.second').innerText = textSecond;
+};
+
+setInterval(countdown, 1000);
 
 /***/ }),
 

@@ -6,7 +6,7 @@
     <div class="text-holder m:auto p-5 leading-10 my-10">
         <p class="text-white 'font-extrabold font-sans text-4xl my-4">RedGEM Decentralized Block Chain Platform</p>
         <p class="text-gray-300 font-serif text-2xl leading-10 my-4"> RedGEM Makes it easy to attain your financial freedom, and it's easy decentralized application that can be downloaded by end-users from the application store</p>
-        <a href="#" class="px-8 py-4 text-white font-bolder text-center rounded-full bg-purple-700">Download WhitePaper</a>
+        <a href="#" class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full bg-purple-700">Download White Paper</a>
     </div>
 
 
@@ -15,31 +15,29 @@
         <div class="border-r border-b border-l shadow-lg border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-lg p-4 flex flex-col justify-between leading-normal">
           <div class="mb-8">
             <p class="text-sm text-gray-600 flex items-center">
-              <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-              </svg>
+    
               <span class="hidden">ICO SALE IS OPEN</span>
             </p>
-            <div class="text-gray-900 font-bold font-sans text-center text-2xl mb-2">ICO SALE IS OPEN</div>
+            <div class="text-gray-900 font-bold font-sans text-center text-2xl mb-2 animate-pulse">ICO SALE IS OPEN</div>
             <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
           </div>
          
 <div class="date_and_sale ">
         <div class="time_counter flex text-center justify-center">
             <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                <p class="font-extrabold text-3xl font-serif font-3xl text-black ">80</p>
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black day">80</p>
                 <p class="font-xl text-xl text-gray-400">Days</p>
             </div>
             <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                <p class="font-extrabold text-3xl font-serif font-3xl text-black ">80</p>
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black hour ">80</p>
                 <p class="font-xl text-xl text-gray-400">Hours</p>
             </div>
             <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                <p class="font-extrabold text-3xl font-serif font-3xl text-black">80</p>
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black minute">80</p>
                 <p class="font-xl text-xl text-gray-400">Mins</p>
             </div>
             <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                <p class="font-extrabold text-3xl font-serif font-3xl text-black">80</p>
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black second">80</p>
                 <p class="font-xl text-xl text-gray-400">Seconds</p>
             </div>
         </div>
@@ -56,30 +54,34 @@
       </div>
 </div>
 
-<div class="count-section text-center justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
+<div class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
-        <h2 class="text-3xl">23,03923,309</h2>
-        <p class="py-3 text-gray-400 text-xl">Number Registered</p>
+        <h2 class="text-3xl counter" data-target="3000">0</h2>
+        <p class="py-3 text-gray-400 text-xl">Total Number of Accounts</p>
     </div>
     <div class="transcount block p-3 m-5 border-r-4 border-gray-300 border-l-4">
-        <h2 class="text-3xl">23,03923,309</h2>
-        <p class="py-3 text-xl text-gray-400">Number Registered</p>
+        <h2 class="text-3xl counter" data-target="9000">0</h2>
+        <p class="py-3 text-xl text-gray-400">Transaction Count</p>
     </div>
     <div class="blockcount  block p-3 m-5 border-gray-300 border-r-4 border-l-4">
-        <h2 class="text-3xl">23,03923,309</h2>
-        <p class="py-3 text-gray-400 text-xl">Number Registered</p>
+        <h2 class="text-3xl counter" data-target="600000">0</h2>
+        <p class="py-3 text-gray-400 text-xl">Block height</p>
     </div>
 </div>
 
 <div class="mx-0 min-h-4/5 text-center text-gray-900 justify-around md:grid md:grid-cols-3 p-10 ">
     <div class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-        <i class="fa fa-film fa-4x text-red-700 border-red-700  p-5 border-dotted hover:animate-pulse  border-8 rounded-full m-5 " aria-hidden="true"></i>
+        <div class="text-center justify-center blockchain_image">
+        <img src="images/block8.svg"  width=80 height=80 alt="block chain image">
+        </div>
             <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">Token</h2>
             <p class="text-xl leading-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
             <p class="py-4 px-4 m-5 rounded bg-red-700 text-white font-bold font-sans"> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Keep Reading</p>
         </div>
     <div class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-        <i class="fa fa-address-card fa-4x text-red-700 border-red-700  p-5 border-dashed  border-8 rounded-full m-5 " aria-hidden="true"></i>
+           <div class="cashout_image">
+               <img src="images/cashout.gif" width=80 height=80 alt="cashout image">
+           </div>
             <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">contract</h2>
             <p class="text-xl leading-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis autem eum numquam asperiores consequatur cumque nisi non quibusdam magni velit.</p>
             <p class="py-4 px-4 m-5 rounded bg-red-700 text-white font-bold font-sans"> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Keep Reading</p>
@@ -109,7 +111,7 @@
             
             </p>
         <div class="socials block md:flex justify-around">
-           <p class="text-center justify-center rounded-full px-8 py-4 hover:bg-red-900 bg-red-700 text-white font-sans ">More About Us</p>
+           <a  href="/about" class="text-center justify-center rounded-full px-8 py-4 hover:bg-red-900 bg-red-700 text-white font-sans ">More About Us</a>
     </div>
     </div>
     <div class=" m-5 p-5">
