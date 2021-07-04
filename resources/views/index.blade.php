@@ -1,17 +1,59 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="background-images grid grid-cols-1 m-auto">
-    <div class="flex text-black pt-1">
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 id="hero-caption" class="sm:text-black text-3xl uppercase font-bold text-shadow-md pb-8">
-                
-                RedGeM Token <i class="fa fa-eye text-blue-500"></i>
-            </h1>
-            <a href="/blog"
-                class="text-center bg-gray-50 text-gray-700 py-2 px-4 hover:bg-yellow-500 rouhover:text-gray-900 font-bold text-xl uppercase">ReadMore</a>
+
+<div class="min-h-auto bg-red-800 grid md:grid-cols-2">
+    <div class="text-holder m:auto p-5 leading-10 my-10">
+        <p class="text-white 'font-extrabold font-sans text-4xl my-4">RedGEM Decentralized Block Chain Platform</p>
+        <p class="text-gray-300 font-serif text-2xl leading-10 my-4"> RedGEM Makes it easy to attain your financial freedom, and it's easy decentralized application that can be downloaded by end-users from the application store</p>
+        <a href="#" class="px-8 py-4 text-white font-bolder text-center rounded-full bg-purple-700">Download WhitePaper</a>
+    </div>
+
+
+    <div class=" w-full lg:max-w-full lg:flex md:m-10">
+          
+        <div class="border-r border-b border-l shadow-lg border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-lg p-4 flex flex-col justify-between leading-normal">
+          <div class="mb-8">
+            <p class="text-sm text-gray-600 flex items-center">
+              <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+              </svg>
+              <span class="hidden">ICO SALE IS OPEN</span>
+            </p>
+            <div class="text-gray-900 font-bold font-sans text-center text-2xl mb-2">ICO SALE IS OPEN</div>
+            <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+          </div>
+         
+<div class="date_and_sale ">
+        <div class="time_counter flex text-center justify-center">
+            <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black ">80</p>
+                <p class="font-xl text-xl text-gray-400">Days</p>
+            </div>
+            <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black ">80</p>
+                <p class="font-xl text-xl text-gray-400">Hours</p>
+            </div>
+            <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black">80</p>
+                <p class="font-xl text-xl text-gray-400">Mins</p>
+            </div>
+            <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
+                <p class="font-extrabold text-3xl font-serif font-3xl text-black">80</p>
+                <p class="font-xl text-xl text-gray-400">Seconds</p>
+            </div>
         </div>
     </div>
+        <div class="purchase mt-5 flex">
+            <div class="purchase_holder">
+                <form method="post" action="#" class="grid grid-cols-2">
+                    <input class="rounded-l-full p-3 border-2 border-gray-300 focus:outline-none" type="number" name="token_purchase" placeholder=100><button class="rounded-r-full focus:outline-none p-3 border-3 border-gray-300 bg-red-700 font-bold text-white" type="submit">purchase Token Now</button>
+                </form>
+            </div>
+        </div>
+
+        </div>
+      </div>
 </div>
 
 <div class="count-section text-center justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">

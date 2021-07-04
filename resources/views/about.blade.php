@@ -6,10 +6,9 @@
           <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
               <h1 id="hero-caption" class="sm:text-white text-6xl text-whitie guppercase font-bold text-shadow-md pb-8">
                   
-                  About Us <i class="fa fa-eye text-blue-500"></i>
+                  About Us <i class="fa fa-eye text-white"></i>
               </h1>
-              <a href="/blog"
-                  class="text-center bg-gray-50 text-gray-700 py-2 px-4 hover:bg-yellow-500 rouhover:text-gray-900 font-bold text-xl uppercase">ReadMore</a>
+    
           </div>
       </div>
   </div>
@@ -18,8 +17,10 @@
       <div class="thecontent bg-white shadwow-lg md:grid md:grid-cols-2 md:mx-20 leading-10">
          <div class="industries bg-red-700 text-center justify-center p-10">
            <p class="text-white text-6xl font-sans font-extrabold">Industries</p>
-           <p class="text-gray-200 font-serif">Lorem ipsu debitis eligendi accusamus voluptas. Earum similique deleniti tempore deserunt obcaecati pariatur dolore porro autem sequi, nisi incidunt nam ex. Officiis, mollitia! Commodi fugit unde ducimus tempora tempore, ea vel veniam neque, autem excepturi iusto!</p>
-           <p class="text-gray-200 font-serief"> iusto t natus quis ab,m, dolorem vero quia at ad neque qui similique? Velit at nemo temporibus assumenda fugit sunt cum usantium consecteturni ea.</p>
+           <p class="text-gray-200 font-sans font-bold font-3xl mt-4">Anyone Can Become Owner Of RedGEM Tokens By participating in AIRDROPS, CROWDSALE & ICO (Buying And Holding An Amount 
+            Of RedGEM Tokens, In Exchange For The Following Benefits Listed Above). Only RedGEM Classic Owners/Holders Will Be 
+            Shareholders In Our Proposed Project/Company & Its Governance. 1 RedGEM Classic Token = 1 Vote, And Voting Is Enabled By 
+            Delegating Voting Rights To The Address (Or Addresses) Of The Token Holder's Choice.</p>
 
          </div>
          <div class="carousel relative shadow-2xl bg-white">
@@ -95,11 +96,27 @@
          </div>
       </div>
   </div>
+  <div class=" h-3/6 banner-holder md:flex justify-around bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
+    <div class="banner-text  md:m-5 md:p-5 space-y-10 ">
+      <p class="font-bold text-6xl text-red-700 m-5 justify-start text-center font-serif">Our Solutions</p>
+        <h1 class="text-4xl font-extrabold text-center md:mt-64">Tell us the Story Behind Your Beauty</h1>
+        <ul class="font-2xl font-bold leading-10 text-gray-800">
+          <li>Great Products and Packaging</li>
+          <li>Best Customer Experience in Our subscription Service</li>
+          <li>Efficient(Faster) Delivery Platform. Powered by Robots and Drones</li>
+          <li>Cometitive Price (Charge less) & Offer Much More (Ethical Bribe) Than Others (By Maintaining Low Cost Structure)</li>
+          <li>NetWork Centeres NationWide Operating (Possibly) 24 hours </li>
+        </ul>
+        <a href="/blog" class="px-10 py-4 text-center rounded-full bg-yellow-400 text-gray-800 hover:bg-yellow-300 hover:text-gray-900 font-bold relative top-10">Learn More</a>
+    </div>
 
+    <div class="bannder-image">
+      <img class="shadow-lg index_image1" src="images/solution.png" alt=" model image">
+    </div>
+</div>
  
   <div class="ourteam md:mx-20 background-gray-200 rounded-xl shadow-lg md:p-10 text-center justify-center">
-      <p class="font-bold text-6xl text-red-700 m-5 font-serif">Our Aim</p>
-      <p class="ourteam_content m-10 text-gray-500 font-sans text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing e</p>  
+     
       <p class="font-bold text-2xl m-5">Meet Our Team Members</p>
       <div class="owl-carousel owl-theme">
       <div class="">

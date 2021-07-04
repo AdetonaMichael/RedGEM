@@ -33,7 +33,7 @@
                 <div>
                   
                 </div>
-                <nav  style="z-index:1;" class=" bg-red-800 font-bold  fixed left-0 right-0">
+                <nav  style="z-index:1;" class=" bg-red-800 font-bold shadow-lg sticky left-0 right-0">
                     {{-- navbar goes here --}}
                     <div class="max-w-6xl">
                         <div class="flex justify-between">
@@ -42,7 +42,7 @@
                     {{-- logo comes here --}}
                     <div class="mr-3 flex items-center text-white">
                         <a href="/" class="flex ">
-                        <i class="fab fa-ethereum fa-5x">  </i>
+                         <img src="images/RedGEM.jpg" width=80 height=80 alt="logo">
                         <span>  <a href="{{ url('/') }}" class="font-extrabold  text-2xl">
                             {{ config('app.name', 'RedGem') }}
                         </a></span>
