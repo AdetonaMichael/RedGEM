@@ -911,17 +911,7 @@
     </div>
 </div>
 
-{{-- check out our Resources Page --}}
-<div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
-    <div class="p-5 m-5">1</div>
-    <div class="p-5 m-5">2</div>
-    <div class="p-5 m-5">3</div>
-</div>
-<div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
-    <div class="p-5 m-5">1</div>
-    <div class="p-5 m-5">2</div>
-    <div class="p-5 m-5">3</div>
-</div>
+
 
 
 

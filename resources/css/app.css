@@ -319,3 +319,8 @@ footer p{
         color:#999;
     }
 }
+.imgsvg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

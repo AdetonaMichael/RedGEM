@@ -3,10 +3,7 @@
 <div class="background-image grid grid-cols-1 m-auto">
     <div class="flex text-black pt-1">
         <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 id="hero-caption" class="sm:text-white text-6xl text-whitie guppercase font-bold text-shadow-md pb-8">
-                
-                About Us <i class="fa fa-eye text-blue-500"></i>
-            </h1>
+            <h1 id="hero-caption" class="text-black text-6xl text-whitie guppercase font-bold text-shadow-md pb-8">Red Tokenomics </h1>
             <a href="/blog"
                 class="text-center bg-gray-50 text-gray-700 py-2 px-4 hover:bg-yellow-500 rouhover:text-gray-900 font-bold text-xl uppercase">ReadMore</a>
         </div>

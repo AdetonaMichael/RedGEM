@@ -1,6 +1,6 @@
 
 
-<footer>
+<footer class="justify-around">
     <div class="container">
         <div class="sec aboutus">
             <h2>About Us</h2>
