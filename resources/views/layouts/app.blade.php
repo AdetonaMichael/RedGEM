@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <!--- CDN and external links ---->
    
   <!--owlcarousel-->
@@ -33,9 +33,9 @@
                 <div>
                   
                 </div>
-                <nav  style="z-index:1;" class=" bg-red-800 font-bold shadow-lg sticky left-0 right-0">
+                <nav  style="z-index:1;" class="font-bold shadow-lg sticky left-0 right-0">
                     {{-- navbar goes here --}}
-                    <div class="max-w-6xl">
+                    <div class="mr-10">
                         <div class="flex justify-between">
                     
                     <div class="flex space-x-4">
@@ -83,7 +83,7 @@
                     </div>
                     </div>
                     {{-- secondary nav --}}
-                    {{-- <div class="md:flex hidden items-center space-x-1">
+                    <div class="md:flex hidden items-center space-x-1">
                         @guest
                         <a class="py-5 px-3 font-bold text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
@@ -100,17 +100,17 @@
                                 {{ csrf_field() }}
                             </form>
                         @endguest
-                    </div> --}}
+                    </div>
                     {{-- mobile button goes here --}}
                     <div class="md:hidden flex items-center">
                         <button class="mobile-menu-button">
-                    <svg  class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>menu</title><g fill="none" class="nc-icon-wrapper"><path d="M6 36h36v-4h-36v4z m0-10h36v-4h-36v4z m0-14v4h36v-4h-36z" fill="#0b56b1"></path></g></svg>
+                    <svg  class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>menu</title><g fill="none" class="nc-icon-wrapper"><path d="M6 36h36v-4h-36v4z m0-10h36v-4h-36v4z m0-14v4h36v-4h-36z" fill="#ffffff"></path></g></svg>
                         </button>
                     </div>
                     </div>
                     </div>
                     {{-- mobile menu --}}
-                    {{-- <div class="mobile-menu border-b-2 border-gray-400 hidden md:hidden pb-5">
+                    <div class="mobile-menu border-b-2 border-gray-400 hidden md:hidden pb-5">
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100" href="/blog">Blog</a>
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100" href="/about">About</a>
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100 my-2" href="/resource">Resources</a>
@@ -130,7 +130,7 @@
                                 {{ csrf_field() }}
                             </form>
                         @endguest
-                    </div> --}}
+                    </div>
                     </nav>
          
         </header>

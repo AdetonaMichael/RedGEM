@@ -27,6 +27,24 @@
     height:700px;
     background-size:cover;
 }
+.owl-carousel .owl-item img{
+    margin-right: auto;
+    width: 150px !important;
+    height: 150px !important;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+}
+p.snav{
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+    
+nav{
+    background-color:#140606;
+}
 @media (min-width: 1024px){
 #hero1 {
     display: -webkit-inline-box;

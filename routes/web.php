@@ -29,6 +29,9 @@ Auth::routes();
 Route::get('redtokenomics', function(){
     return view('redtokinomics');
 });
+Route::get('checkout', function(){
+    return view('checkout');
+});
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

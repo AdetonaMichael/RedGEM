@@ -108,121 +108,235 @@
          <img src="images/oursolution.svg" alt="our solution image">
     </div>
 </div>
+ <!---------------- soape------------->
  
+ <!---------------- soape------------->
   <div class="ourteam md:mx-20 background-gray-200 rounded-xl shadow-lg md:p-10 text-center justify-center">
      
     <p class="font-bold text-6xl text-red-700 m-5 justify-start text-center font-serif">Our Team</p>
       <div class="owl-carousel owl-theme">
-      <div class="">
+      <div class="h-64">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ADEBAYO ADEMOLA.jpg" alt="team member of ReadGEM">
+            <img class="rounded-full" src="images/team/ADEBAYO ADEMOLA.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
             <p>Head, Business Development</p>
             <p class="bold font-2xl text-red-700"><i>Partner Trillion Ivy Nig. & Co.</i></p>
-           </div>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
           </div>
+          </div>
+          
       <div class="">
+      
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ADESANMI SIMILOLUWA.jpg" alt="team member of ReadGEM">
+            <img class="rounded-full" src="images/team/ADESANMI SIMILOLUWA.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ADESANMI SIMILOLUWA</p>
             <p ><i>Community Manager</i></p>
-            <p class="bold font-2xl">Post</p>
-           </div>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
           </div>
-      <div class="">
+          </div>
+      <div class="h-64">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ADESANMI EMMANUEL.jpg" alt="team member of ReadGEM">
+            <img class="rounded-full" width=200 height=200 src="images/team/ADESANMI EMMANUEL.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl">ADESANMI EMMANUEL</p>
             <p ><i>Blockchain Technology Expert, Business Strategist & Planner</i></p>
-           </div>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p> 
           </div>
-      <div class="">
+          </div>
+      <div class="h-64 space-y-10">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ADEYEFA ADESOLA.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl ">ADEYEFA ADESOLA</p>
+            <img class="rounded-full" width=100 height=100  src="images/team/ADEYEFA ADESOLA.jpg" alt="team member of ReadGEM">
+            <p class="font-bold text-2xl ">ADEYEFA ADESOLA J.</p>
             <p ><i>Investor & Forex Trader</i></p>
-            <p class="bold font-2xl">Post</p>
-           </div>
+            <p class="bold font-2xl text-red-500">C.E.O Yef Properties & Enterprise</p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
           </div>
-      <div class="">
+          </div>
+      <div class="h-64 space-y-10">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/AKINOLA-O GBENRO.jpg" height=100 alt="team member of ReadGEM">
+            <img class="rounded-full" width=200 height=200  src="images/team/AKINOLA-O GBENRO.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">AKINOLA-O GBENRO</p>
             <p >
               <i>KEY ADVISOR</i></p>
             <p class="bold font-2xl text-red-700"><i>C.E.O justlinks.net</i></p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
-      <div class="">
+      <div class="h-64">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ARAYOMBO ARAMIDE.jpg" height=100 alt="team member of ReadGEM">
+            <img class="rounded-full" src="images/team/ARAYOMBO ARAMIDE.jpg"  alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ARAYOMBO ARAMIDE</p>
             <p ></p>
-            <p class="bold font-2xl"></p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
-      <div class="">
+      <div class="h-64">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/AWOTOBI OYEWUMI.jpg" height=100 alt="team member of ReadGEM">
+            <img class="rounded-full" src="images/team/AWOTOBI OYEWUMI.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">AWOTOBI OYEWUMI</p>
             <p ><i>Investment Analyst</i></p>
             <p class="bold font-2xl text-red-700"><i>C.E.O TOBITAT Inc</i></p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
-      <div class="">
+      <div class="h-64">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/Chukwuemeka Linda (10).jpg" height=100 alt="team member of ReadGEM">
+            <img class="rounded-full" src="images/team/Chukwuemeka Linda (10).jpg"alt="team member of ReadGEM">
             <p class="font-bold text-2xl">Chukwuemeka Linda</p>
             <p ><i>Head, Business Planning</i></p>
             <p class="bold font-2xl text-red-700"><i>Partner Trillion Ivy Nig. & Co.</i></p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
+           </div>
+          </div>
+      <div class="h-64">
+           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+            <img class="rounded-full" src="images/team/ELUJULO AYOMIKUN.jpg"  alt="team member of ReadGEM">
+            <p class="font-bold text-2xl ">ELUJULO AYOMIKUN</p>
+            <p><i>Head, Business Operations</i></p>
+            <p class="bold font-2xl text-red-500"><i>C.O.O Trillion Ivy Nig. & Co.</i></p>
+            <p>
+              <p class="snav">
+                <ul class="flex text-center justify-around my-5">
+                  <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                  <li><i class="fab fa-twitter fa-2x"></i></li>
+                  <li><i class="fab fa-instagram fa-2x"></i></li>
+                  <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+                </u>
+              </p>
+          </div>
+          </div>
+      <div class="h-64">
+           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+            <img class="rounded-full" src="images/team/ODEYEMI TEMITAYO.jpg" alt="team member of ReadGEM">
+            <p class="font-bold text-2xl ">ODEYEMI TEMITAYO</p>
+            <p >Project Manager</p>
+            <p class="bold font-2xl">Post</p>
+           
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p></div>
+          </div>
+      <div class="">
+           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+            <img class="rounded-full" src="images/team/OKOROAFOR MICHAEL.jpg"  alt="team member of ReadGEM">
+            <p class="font-bold text-2xl ">OKOROAFOR MICHAEL</p>
+            <p >KEY ADVISOR</p>
+            <p class="text-red-500"><i>Co-Founder dataway.ng</i></p>
+            <p class="">
+              <p class="snav">
+                <ul class="flex text-center justify-around my-5">
+                  <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                  <li><i class="fab fa-twitter fa-2x"></i></li>
+                  <li><i class="fab fa-instagram fa-2x"></i></li>
+                  <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+                </u>
+              </p>
+            </p>
            </div>
           </div>
       <div class="">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ELUJULO AYOMIKUN.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
+            <img class="rounded-full" src="images/team/OLADODE TIMOTHY.png" alt="team member of ReadGEM">
+            <p class="font-bold text-2xl ">OLADODE TIMOTHY</p>
             <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
       <div class="">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ODEYEMI TEMITAYO.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
+            <img class="rounded-full" src="images/team/ONI IYANU.jpg" alt="team member of ReadGEM">
+            <p class="font-bold text-2xl">ONI IYANU</p>
             <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
       <div class="">
            <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/OKOROAFOR MICHAEL.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
-            <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
-           </div>
-          </div>
-      <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/OLADODE TIMOTHY.png" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
-            <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
-           </div>
-          </div>
-      <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/ONI IYANU.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl">ADEBAYO ADEMOLA</p>
-            <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
-           </div>
-          </div>
-      <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
-            <img src="images/team/SAKA MUBARAK.jpg" height=100 alt="team member of ReadGEM">
-            <p class="font-bold text-2xl">ADEBAYO ADEMOLA</p>
-            <p >Michael Adetona</p>
-            <p class="bold font-2xl">Post</p>
+            <img class="rounded-full" src="images/team/SAKA MUBARAK.jpg"  alt="team member of ReadGEM">
+            <p class="font-bold text-2xl">SAKA MUBARAK</p>
+            <p>Project Manager</p>
+            <p class="snav">
+              <ul class="flex text-center justify-around my-5">
+                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-instagram fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              </u>
+            </p>
            </div>
           </div>
       </div>
@@ -230,16 +344,16 @@
   <p class="font-bold text-6xl bg-red-700 m-5 text-white p-5 justify-start text-center font-serif shadow-lg">Our Services</p>
   {{-- check out our Resources Page --}}
 <div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
-  <div title="Drone Services text-center justify-center" class="p-5 m-5"><img class="imgsvg" src="images/drone.svg" width=200 height=200 alt="Drone Dilivery">
+  <div title="Drone Services text-center justify-center" class="p-5 m-5"><img class="imgsvg" src="images/drone.svg" width=100 height=100 alt="Drone Dilivery">
   <p class="font-sans font-bold text-white bg-red-700 p-5 text-center">Drone Delivery Services</p></div>
-  <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/security2.svg" width=200 height=200 alt="Security Service">
+  <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/security2.svg" width=100 height=100 alt="Security Service">
   <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">Security</p></div>
-  <div title="Food Services" class="p-5 m-5"><img class="imgsvg" src="images/food.svg" alt="food Services" height=200 width=200>
+  <div title="Food Services" class="p-5 m-5"><img class="imgsvg" src="images/food.svg" alt="food Services" height=100 width=100>
 <p class="font-sans font-bold text-white bg-red-700 p-5 text-center">Cloud Kitchen</p></div>
 </div>
 <div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
   <div class="p-5 m-5">3</div>
-  <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/connect_2.svg" width=200 height=200 alt="Security Service">
+  <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/connect_2.svg" width=100 height=100 alt="Security Service">
     <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">Advertising</p></div>
   <div class="p-5 m-5">3</div>
 </div>
@@ -257,7 +371,7 @@
  loop:true,
  nav:true,
  loop: true,
- autoplay: true,
+ autoplay: false,
  slideTransition: 'linear',
  autoplaySpeed: 1000,
  autoplay:true,
@@ -267,10 +381,10 @@
          items:1
      },
      600:{
-         items:3
+         items:2
      },
      1000:{
-         items:5
+         items:3
      }
  }
  })

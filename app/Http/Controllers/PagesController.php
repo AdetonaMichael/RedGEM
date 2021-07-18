@@ -19,5 +19,8 @@ class PagesController extends Controller
     public function redtokinomics(){
         return view('redtokinomics');
     }
+    public function checkout(){
+        return view('checkout');
+    }
 
 }
