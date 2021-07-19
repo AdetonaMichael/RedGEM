@@ -1,5 +1,19 @@
 const mix = require('laravel-mix');
+const purgecss = require('@fullhuman/postcss-purgecss')({
 
+  // specify the pats to all of the emplate files in your project
+  
+  content: [
+    './resources/**/*.blade.php',
+    // './resources/**/*.vue',
+    // './resources/**/*.jsx',
+  
+    //etc
+  ],
+  
+  // include any special characters you're using in this regular expression
+  defaultExtractor: content=> content.match(/[\w-/:]+(?<!:)/g)||[]
+  })
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -17,6 +31,7 @@ mix
     require('postcss-import'),
     require('tailwindcss'),
     require('postcss-nested'),
+    ...mix.inProduction() ? [purgecss]:[],
     require('autoprefixer'),
   ]);
 

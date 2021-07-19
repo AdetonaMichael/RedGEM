@@ -10,6 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^4.0.3",
         "@tailwindcss/ui": "^0.3",
         "autoprefixer": "^9.6",
         "axios": "^0.21",
