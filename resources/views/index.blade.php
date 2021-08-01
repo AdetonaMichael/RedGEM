@@ -8,9 +8,8 @@
         <p class="text-gray-300 font-serif text-2xl leading-10 my-4"> RedGEM Makes it easy to attain your financial
             freedom, and it's easy decentralized application that can be downloaded by end-users from the application
             store</p>
-        <a href="resource_1/RedGEM.pdf" download
-            class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full bg-purple-700">Download White
-            Paper</a>
+        <a href="#"
+            class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full hover:bg-purple-500 bg-purple-700">Buy Token</a>
     </div>
     <div class="gem1_image">
   
@@ -79,51 +78,24 @@
 </div>
 <p class="bg-red-700 text-white p-5 font-sans mx-0">RedGEM Token |</p>
 <!--- Token Wizard section  --->
-<div class="grid md:grid-cols-3">
-  <div class="left col-span-2">
-    <p class="text-red-700 text-2xl shadow-lg animate animate-bounce bg-white text-center p-5 md:mx-10">ICO SALE IS OPEN</p>
-     <div class="left_1">
-       
-     </div>
-     <div class="right_1 md:flex md:justify-around">
-        
-         <div class="border-5 border-red-700 rounded-full">
-        <div class="date_and_sale bg-white border-2 md:p-5  md:mt-20">
-            <div class="time_counter flex text-center justify-center">
-                <div class="item block text-center justify-center  pt-5">
-                    <p class="font-extrabold text-3xl font-serif font-3xl text-black day ">80</p>
-                    <p class="font-xl text-xl text-gray-400">Days</p>
-                </div>
-                <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                    <p class="font-extrabold text-3xl font-serif font-3xl text-black hour ">80</p>
-                    <p class="font-xl text-xl text-gray-400">Hours</p>
-                </div>
-                <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                    <p class="font-extrabold text-3xl font-serif font-3xl text-black minute">80</p>
-                    <p class="font-xl text-xl text-gray-400">Mins</p>
-                </div>
-                <div class="item block text-center justify-center border-l-2 border-gray-300 p-5">
-                    <p class="font-extrabold text-3xl font-serif font-3xl text-black second">80</p>
-                    <p class="font-xl text-xl text-gray-400">Seconds</p>
-                </div>
-            </div>
-    </div>
-         </div>
-        <div class="addresses m-5 leading-7">
+<div class="min-h-screen md:grid md:grid-cols-2 p-10">
+     <div class="description">
+        <p class="text-red-700 text-2xl shadow-lg animate animate-bounce bg-white text-center p-5 md:mx-10">ICO SALE IS OPEN</p>
+                 <div class="addresses m-5 leading-7">
             <div class="block">
-                <p class="text-red-700 font-extrabold font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
+                <p class="text-red-700  font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
                 <span class="text-gray-400 font-bold">
                     RedGEM CONTRACT ADDRESS:
                 </span>
             </div>
             <div class="block">
-                <p class="text-red-700 font-extrabold font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
+                <p class="text-red-700  font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
                 <span class="text-gray-400 font-bold">
                     ETHEREUM CROWDSALE ADDRESS (SEND ETH TO THIS ADDRESS):
                 </span>
             </div>
             <div class="block">
-                <p class="text-red-700 font-extrabold font-sans">bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq</p>
+                <p class="text-red-700 font-sans">bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq</p>
                 <span class="text-gray-400 font-bold">
                     BINANCE CROWDSALE ADDRESS (SEND BNB TO THIS ADDRESS):
                 </span>
@@ -136,51 +108,44 @@
             </div>
    
         </div>
-    </div>
-    <div class="holder md:px-10">
-        <p class="mt-5 font-extrabold font-2xl">Invest Page</p>
-        <p class="text-xl text-gray-600 text-left leading-8">Here, you can invest in RedGEM Crowdsale Campaign. At the moment, you need a RedGEM Wallet Address to invest into 
-            the Crowdsale. You’ll need to send ETH or BNB to the specified CROWDSALE WALLET ADDRESS above. And, 
-            RedGEM Token will be deposited in your Submitted RedGEM Wallet Address AFTER we’ve confirmed your sent COINS.</p>
-        </div>
      </div>
-     <div class="right border-l-2 border-gray-300 p-5">
-        <div class="holder block p-5 space-y-8">
-
-            <div class="border-b-2 border-gray-400 mb-4 leading-10 font-sans font-xl font-bold"> 
-                <p>TOKEN NAME: RedGEM</p>
-                <p>TICKER: RedT</p>
-                <p>TOTAL SUPPLY: 300 MILLION RedT</p>
-                <p>TOTAL SUPPLY (CROWDSALE): 150 MILLION RedT </p>
-        </div>
-        <div class="holder block p-5 space-y-8">
-            <p class="font-2xl font-bold text-red-700">CHOOSE AMOUNT TO INVEST:
-            </p>
-            <span class="text-gray-400 text-xl">Balance</span>
-            <p class="border-b-2 border-gray-400 mb-4">Your Balance in Token </p>
-        </div>
-
-        <div class="holder2">
-            
-            <form method="post" action="#" class="grid grid-cols-2">
-                <input class="rounded-l-full p-3 border-2 border-gray-300 focus:outline-none" type="number"
-                    name="token_purchase" placeholder="0 – 10000 RedT"><button
-                    class="rounded-r-full focus:outline-none p-3 border-3 border-gray-300 bg-red-700 font-bold text-white"
-                    type="submit">purchase Token Now</button>
-            </form>
-        </div>
-      </div>
-  </div>
-
+     <div class="card rounded-xl shadow-md bg-white ">
+         <p class="font-sans text-center text-red-700 font-extrabold mt-10 pt-5">TOKEN SALES ENDS IN </p>
+         <div class="date_and_sale bg-white md:p-5 my-10">
+            <div class="time_counter flex text-center space-x-4 justify-center">
+                <div class="item block text-center justify-center bg-red-700   p-5">
+                    <p class="font-extrabold text-3xl font-serif font-3xl text-white day ">80</p>
+                    <p class="font-xl text-xl text-gray-400">Days</p>
+                </div>
+                <div class="item block text-center justify-center bg-red-700   p-5">
+                    <p class="font-extrabold text-3xl font-serif font-3xl text-white hour ">80</p>
+                    <p class="font-xl text-xl text-gray-400">Hours</p>
+                </div>
+                <div class="item block text-center justify-center bg-red-700  p-5">
+                    <p class="font-extrabold text-3xl font-serif font-3xl text-white minute">80</p>
+                    <p class="font-xl text-xl text-gray-400">Mins</p>
+                </div>
+                <div class="item block text-center justify-center p-5 bg-red-700">
+                    <p class="font-extrabold text-3xl font-serif font-3xl text-white second">80</p>
+                    <p class="font-xl text-xl text-gray-400">Seconds</p>
+                </div>
+            </div>
+    </div>
+    <p class="font-sans text-center text-red-700 font-extrabold my-5 py-5">WE ACCEPT </p>
+       <div class="paymenticons space-x-3 justify-center text-center my-5">
+           <i class="fa fa-cc-visa px-4 py-2 rounded-xl text-white bg-red-700" aria-hidden="true"></i>
+           <i class="fab fa-ethereum px-4 py-2 rounded-xl text-white bg-red-700"></i>
+           <i class="fab fa-bitcoin px-4 py-2 rounded-xl text-white bg-red-700"></i>
+       </div>
+     </div>
 </div>
 <p class="bg-red-700 text-white p-5 font-sans mx-0">RedGEM Token |</p>
-
 <!--- token wizard section ---->
 
 <div class="becomeus block md:flex justify-center">
     <div class="thetext items-justify-center m-5 p-5 relative top-11 space-y-5">
-        <p class="text-xl">Transform your financial needs with Us</p>
-        <h2 class="text-3xl font-bold pb-4 text-red-700">We are Change-driven innovators in creating the next generation
+        <p class="text-xl font-sans font-bold text-red-700">Our Proposition</p>
+        <h2 class=" text-4xl font-serif pb-4 text-red-700">We are Change-driven innovators in creating the next generation
             producsts</h2>
         <p class="font-semibold font-sans leading-10 text-xl">
             IMAGINE GETTING $30000 FROM 3 MONTHS WORK JUST BY JOINING THIS TEAM.

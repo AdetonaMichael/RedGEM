@@ -44,6 +44,6 @@
     </div>
 </div>
 <div class="copyrighttext">
-    <p>Copyright  2021 Geocipher International. All Rights Reserved.</p>
+    <p>Copyright  2021 RedGEM Technologies Inc. All Rights Reserved.</p>
 </div>
 </footer>
