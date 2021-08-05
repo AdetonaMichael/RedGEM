@@ -7,11 +7,14 @@
   <div class="content-holder relative bottom-32">
       <div class="thecontent bg-white shadwow-lg md:grid md:grid-cols-2 md:mx-20 leading-10">
          <div class="industries bg-red-900 text-center justify-center p-10">
-           <p class="text-white text-4xl font-serif font-extrabold mb-3">The RedGEM Technologies INC. (TRT Inc.)</p>
-           <p class="text-gray-200 font-sans font-bold font-3xl mt-10 leading-10">Is a TECHNOLOGY AND BLOCKCHAIN SOLUTIONS COMPANY incorporated & (Majorly) responsible for using blockchian technology to make existing COMPANIES, GOVERNMENTS OR STARTUPS, etc. raise needed funds to finance their projects. 
-             We are the hallmark for excellent BLOCKCHAIN SERVICES, making amazing people achieve more through innovative & professional solutions-driven mechanism. 
-             We leverage our broad plus deep services (value offerings), our leading edge technology and personalized approach to meet the special needs of a wide range of clients.
-           </p>
+           <p class="text-white text-4xl font-serif font-extrabold mb-3">The RedGEM Technologies, Inc. (TRT Inc.)</p>
+           <div class="text-gray-200 font-sans font-bold text-xl mt-10 leading-10">
+             <p>Is a TECHNOLOGY AND BLOCKCHAIN SOLUTIONS COMPANY incorporated & (Majorly) responsible for using blockchian technology to make existing COMPANIES, GOVERNMENTS OR STARTUPS, etc. raise needed funds to finance their projects. </p>
+             <br/>
+             <p>We are the hallmark for excellent BLOCKCHAIN SERVICES, making amazing people achieve more through innovative & professional solutions-driven mechanism.</p>
+              <br/>
+             <p> We leverage our broad plus deep services (value offerings), our leading edge technology and personalized approach to meet the special needs of a wide range of clients.</p>
+           </div>
 
          </div>
          <div class="carousel relative shadow-2xl bg-white">
@@ -79,9 +82,10 @@
          <div class="section2 p-10 font-sans">
            <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-clipboard "></i> Services</p>        
 <ul>
-  <li>RedGEM Cuisine</li>
-  <li>RedGEM Store </li>
-  <li>WingUAV Global Technologies Ltd </li>
+  <li title="Subscription and Cloud Cuisine">RedGEM Cuisine</li>
+  <li>RedGEM Mall </li>
+  <li title="Urban Area Mobility Company">RedGEM Cruise</li>
+  <li>
 </ul>
 
           

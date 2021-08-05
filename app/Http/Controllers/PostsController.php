@@ -125,7 +125,7 @@ class PostsController extends Controller
     {
         $post= POST::where('slug', $slug);
         $post->delete();
-
+        session()->flash('success', "The Post has been Deleted Successfully!...");
         return redirect('/blog')->with('message', 'Your Post has been Deleted');
     }
 }

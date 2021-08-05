@@ -42,9 +42,9 @@
                     {{-- logo comes here --}}
                     <div class="mr-3 flex items-center text-white">
                         <a href="/" class="flex ">
-                         <img src="images/RedGEM.jpg" width=80 height=80 alt="logo">
+                         <img src="images/RedGEM.png" width=80 height=80 alt="logo">
                         <span>  <a href="{{ url('/') }}" class="font-extrabold  text-2xl">
-                            {{ config('app.name', 'RedGem') }}
+                            {{ config('app.name', 'RedGEM') }}
                         </a></span>
                       
                         </a>
@@ -63,7 +63,7 @@
                               <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                             </button>
                             <ul class="dropdown-menu absolute hidden bg-white text-gray-700 pt-1">
-                              <li class=""><a class="bg-gray-200 hover:bg-gray-400 hover:text-red-600 py-4 px-6 block whitespace-no-wrap" href="/redtokenomics">Red Tokenomics</a></li>
+                              <li class=""><a class="bg-gray-200 hover:bg-gray-400 hover:text-red-600 py-4 px-6 block whitespace-no-wrap" href="{{ route('blog.index') }}">Blog</a></li>
                             </ul>
                           </div>
                         <a class="px-3 text-gray-200 hover:text-gray-000 " href="#">Contact</a>
@@ -76,7 +76,6 @@
                               <li class=""><a class="bg-gray-200 hover:bg-gray-400 hover:text-red-600 py-4 px-6 block whitespace-no-wrap" href="/redtokenomics">Red Tokenomics</a></li>
                             </ul>
                           </div>
-                        <a  class="px-3 text-gray-200 hover:text-gray-000" href="/resource">Resource</a>
                         <a  class="px-3 text-gray-200 hover:text-gray-000 hover:border-b-700 " href="/about">About Us</a>
                     </div>
                     </div>

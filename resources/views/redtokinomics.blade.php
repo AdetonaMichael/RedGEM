@@ -1,15 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="background-image grid grid-cols-1 m-auto">
-    <div class="flex text-black pt-1">
-        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-            <h1 id="hero-caption" class="text-black text-6xl text-whitie guppercase font-bold text-shadow-md pb-8">Red Tokenomics </h1>
-            <a href="/blog"
-                class="text-center bg-gray-50 text-gray-700 py-2 px-4 hover:bg-yellow-500 rouhover:text-gray-900 font-bold text-xl uppercase">ReadMore</a>
-        </div>
-    </div>
-</div>
-
 <div class="table_holder text-center justify-center bg-white shadow-lg rounded md:mx-20  border-gray-300 p-10 md:m-10">
     <p class="text-center bg-red p-5 font-bold font-sans bg-red-700 text-white font-4xl">Red Tokenomics</p>
     <p class="mt-5 text-center bg-red p-5 font-bold font-sans bg-yellow-400 text-black font-4xl">RedGEM Token TOKENOMICS

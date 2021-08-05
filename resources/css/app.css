@@ -6,18 +6,16 @@
 
 
 .gem1_image{
-    background-image:url('/images/gem1.png');
-    background-position:center center;
-    background-repeat:no-repeat;
-    height:500px
+        background-image: url('/images/gem1.jpg');
+        background-repeat: no-repeat;
+        height: auto;
+        background-position: right;
 }
 .background-image{
-    background-image: url('/images/gem2.png');
+    background-image: url('/images/gem_b.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height:700px;
-    background-size:cover;
 }
 .background-image2{
     background-image: url('https://cdn.pixabay.com/photo/2018/03/31/05/07/blockchain-3277336_960_720.png');
@@ -40,6 +38,9 @@ p.snav{
     margin-right:auto;
     margin-left:auto;
     display:block;
+}
+.card{
+    height:fit-content;
 }
     
 nav{

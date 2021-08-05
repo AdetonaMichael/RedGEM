@@ -24,7 +24,6 @@ Route::get('/about', function(){
 Route::get('/michael/adetona/{userid}/{password}', function($userid, $password){
     return "Dear Michael Adetona, Your User id and password is: ".$userid. "<br/>".$password;
 });
-Route::get('/resource', [PagesController::class, 'resource']);
 Auth::routes();
 Route::get('redtokenomics', function(){
     return view('redtokinomics');
