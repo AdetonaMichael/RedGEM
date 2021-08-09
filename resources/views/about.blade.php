@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+About RedGEM
+@endsection
 @section('content')
 
     <div class="background-image grid grid-cols-1 m-auto">
@@ -72,7 +75,7 @@
             <button class="bg-red-700 text-white text-center px-4 mx-4  py-2 my-2 ronded-xl" type="submit"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Message</button>
           </form>
          </div>
-         <div class="section2 p-10 font-sans">
+         <div class="section2 p-10 font-sans" id="contactus">
            <p class="font-bold text-2xl text-red-700 font-sans"><i class="fa fa-address-card text-red-700" aria-hidden="true"></i> Address</p>
            <p class="bold">OAU Central Market, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria.</p>
            <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-phone-square" aria-hidden="true"></i> Phone</p>

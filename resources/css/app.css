@@ -4,19 +4,32 @@
 
 @import "tailwindcss/utilities";
 
-
+@media(max-width:860px){
+    .background-image {
+        background-image: url(/images/gem_b.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 374px;
+        background-size: contain;
+        background-position-y: top;
+        size: cover;
+    }
+}
 .gem1_image{
         background-image: url('/images/gem1.jpg');
         background-repeat: no-repeat;
         height: auto;
         background-position: right;
 }
-.background-image{
-    background-image: url('/images/gem_b.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    height:700px;
+@media(min-width:870px){
+    .background-image{
+        background-image: url('/images/gem_b.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        height:700px;
+    }
 }
+
 .background-image2{
     background-image: url('https://cdn.pixabay.com/photo/2018/03/31/05/07/blockchain-3277336_960_720.png');
     background-position: center center;

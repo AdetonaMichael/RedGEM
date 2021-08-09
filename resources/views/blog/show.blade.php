@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+{{ $post->title }}
+@endsection
 @section('content')
 <section class="bg-gray-white px-6  py-4">
   <div class="w-2/5 m-auto text-gray-900 font-bold text-left">
@@ -21,24 +23,10 @@
       </h3>
 
 
-   <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+   <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light md:mx-20 mx-10 bg-white px-5">
        {{ $post->description }}
    </p>
 
-   <div class="about-author p-10 bg-white justify-center rounded-3xl">
-    <h2 class="text-gray-900 font-extrabold text-2xl text-left my-5">About the Author</h2>
-       <div class="content-holder flex justify-center text-center">
-         <div class="user-avatar item-center justify-center">
-           <i class="hover:bg-blue-400 hover:text-blue-700 border-2 p-5 rounded-full bg-gray-300 border-blue-800  fas fa-user fa-2x  text-blue-800"></i>
-         </div>
-
-         <div class="text-holder ml-5 my-2">
-           <h2 class="text-gray-900 font-extrabold text-xl">Michael Adetona</h2>
-           <p class="font-semibold my-2">Geo Dev Community author on
-            Digital Ocean. </p>            
-         </div>
-       </div>
-   </div>
 </div>
 </section>
 

@@ -111,8 +111,8 @@ class PostsController extends Controller
             'slug' => SlugService ::createSlug(Post::class, 'slug',$request->title),
             'user_id' => auth()->user()->id
         ]);
-
-        return redirect('/blog')->with('message', 'Your Post has been updated');
+        session()->flash('success', 'Your Post has been Updated successfully!...');
+        return redirect('/blog');
     }
 
     /**
@@ -126,6 +126,6 @@ class PostsController extends Controller
         $post= POST::where('slug', $slug);
         $post->delete();
         session()->flash('success', "The Post has been Deleted Successfully!...");
-        return redirect('/blog')->with('message', 'Your Post has been Deleted');
+        return redirect('/blog');
     }
 }

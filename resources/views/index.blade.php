@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+RedGEM Home
+@endsection
 @section('content')
 
 <div class="min-h-auto bg-red-800 grid md:grid-cols-2">
@@ -8,7 +10,7 @@
         <p class="text-gray-300 font-serif text-2xl leading-10 my-4"> RedGEM Clasic Makes it easy to attain your financial
             freedom, and it's easy decentralized application that can be downloaded by end-users from the application
             store</p>
-        <a href="#"
+        <a href="#buytoken"
             class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full hover:bg-purple-500 bg-purple-700">Buy Token</a>
     </div>
     <div class="gem1_image">
@@ -79,34 +81,25 @@
 <p class="bg-red-700 text-white p-5 font-sans mx-0">RedGEM Token |</p>
 <!--- Token Wizard section  --->
 <div class="tokenwizard md:grid md:grid-cols-2 p-10">
-     <div class="description">
+     <div class="description" id="buytoken">
         <p class="text-red-700 text-2xl shadow-lg animate animate-bounce bg-white text-center p-5 md:mx-10">ICO SALE IS OPEN</p>
                  <div class="addresses m-5 leading-7">
             <div class="block">
-                <p class="text-red-700  font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
+                <p class="text-red-700  font-sans font-bold">0x33ae423c0Def21042a0dA738faa3660a0207cfEC</p>
                 <span class="text-gray-400 font-bold">
                     RedGEM CONTRACT ADDRESS:
                 </span>
             </div>
             <div class="block">
-                <p class="text-red-700  font-sans">3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy</p>
-                <span class="text-gray-400 font-bold">
-                    ETHEREUM CROWDSALE ADDRESS (SEND ETH TO THIS ADDRESS):
+                <p class="text-red-700  font-sans bold">Don't Have A Wallet?</p>
+                <span class="text-gray-400 font-bold flex">
+                    Create One with Trust Wallet <a href="https://trustwallet.com" target="blank"><img src="images/trustw.svg" height=200 width=200></a>
                 </span>
             </div>
             <div class="block">
-                <p class="text-red-700 font-sans">bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq</p>
-                <span class="text-gray-400 font-bold">
-                    BINANCE CROWDSALE ADDRESS (SEND BNB TO THIS ADDRESS):
-                </span>
+                <p class="text-red-700 font-sans font-bold">Copy The Contract Address & Add To Trust Wallet To Create Your "RedGEM Classic" Wallet.</p>
+                
             </div>
-            <div class="block">
-                <p class="text-red-700 font-extrabold font-sans">My Token</p>
-                <span class="text-gray-400 font-bold">
-                   Name
-                </span>
-            </div>
-   
         </div>
      </div>
      <div class="card rounded-xl shadow-md bg-white ">

@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('title')
+RedTokenomics
+@endsection
 @section('content')
 <div class="table_holder text-center justify-center bg-white shadow-lg rounded md:mx-20  border-gray-300 p-10 md:m-10">
     <p class="text-center bg-red p-5 font-bold font-sans bg-red-700 text-white font-4xl">Red Tokenomics</p>

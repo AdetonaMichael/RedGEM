@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('title')
+RedGEM Blog
+@endsection
 @section('content')
 <section class="bg-white p-6">
   <div class="w-4/5 m-auto text-gray-800 text-center">

@@ -25,7 +25,7 @@
         </ul>
     </div>
     <div class="sec contact">
-        <h2>Contact Info</h2>
+        <h2 id="contactus">Contact Info</h2>
         <ul class="info">
             <li>
             <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
