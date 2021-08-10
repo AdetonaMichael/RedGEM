@@ -5,13 +5,9 @@ RedGEM Home
 @section('content')
 
 <div class="min-h-auto bg-red-800 grid md:grid-cols-2">
-    <div class="text-holder m:auto p-5 leading-10 my-10">
-        <p class="text-white 'font-extrabold font-sans text-4xl my-4">RedGEM Clasic Token Platform</p>
-        <p class="text-gray-300 font-serif text-2xl leading-10 my-4"> RedGEM Clasic Makes it easy to attain your financial
-            freedom, and it's easy decentralized application that can be downloaded by end-users from the application
-            store</p>
-        <a href="#buytoken"
-            class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full hover:bg-purple-500 bg-purple-700">Buy Token</a>
+    <div class="text-holder m:auto p-5 leading-10 my-10 text-center bg-black">
+        <p class="text-white 'font-extrabold font-sans text-4xl my-10 shadow-lg text-center redgem_ico">RedGEM Classic I.C.O</p>
+        <a href="#buytoken"class="px-8 py-4 text-white font-extrabold font-sans text-center rounded-full bg-red-600">Buy Token</a>
     </div>
     <div class="gem1_image">
   
@@ -19,7 +15,7 @@ RedGEM Home
 
 
 </div>
-
+{{-- <p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p> --}}
 <div
     class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
@@ -43,23 +39,19 @@ RedGEM Home
             <i class="fa fa-spinner fa-spin fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
             aria-hidden="true"></i>
         </div>
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">Tier 1</h2>
-        <p class="text-xl leading-10">ICO CROWDSALE (TIER 1) SUPPLY: 7 500 000
-             GOAL: 100 BNB (100 ETH)
-             TOTAL RAISED FUNDS: 50 ETH
-            MINIMUM INVESTMENT (PURCHASE):
-            MAXIMUM INVESTMENT (PURCHASE):</p>
+        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">I.C.O TIER 1</h2>
+        <p class="text-xl leading-10">Supply: 7 500 000
+            Goal: 1000 BNB
+            Funds Raised: 50 BNB
+            Soft Cap:
+            Hard Cap:</p>
 
     </div>
     <div
         class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
 
         <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">TIER 2 COMING SOON</h2>
-        <p class="text-xl leading-10"> ICO CROWDSALE (TIER 2) SUPPLY: 4 500 000
-             GOAL: 100 ETH
-             TOTAL RAISED FUNDS: 50 ETH
-             MINIMUM
-             MAXIMUM</p>
+        <img class="text-center justify-center" src="images/wallet.svg" height="300" width="400" alt="coming soon RedGEM tier2">
 
     </div>
     <div
@@ -67,11 +59,7 @@ RedGEM Home
         <i class="fa fa-address-card fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
             aria-hidden="true"></i>
         <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">TIER 3 COMING SOON</h2>
-        <p class="text-xl leading-10">ICO CROWDSALE (TIER 3) SUPPLY: 3 000 000
-             GOAL: 100 ETH
-             TOTAL RAISED FUNDS: 50 ETH
-             MINIMUM
-             MAXIMUM</p>
+      <img src="images/comingsoon.gif" height="300" width="400">
 
     </div>
 
