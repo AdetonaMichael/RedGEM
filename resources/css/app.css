@@ -41,10 +41,10 @@
     height:700px;
     background-size:cover;
 }
-.owl-carousel .owl-item img{
+.owl_img img{
     margin-right: auto;
     width: 150px !important;
-    height: 150px !important;
+    height: 150px;
     display: block;
     margin-bottom: 30px;
     margin-top: 30px;

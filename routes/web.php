@@ -16,18 +16,10 @@ use App\Http\Controllers\PostsController;
 */
 
 Route::get('/', [PagesController::class, 'index']);
-Route::resource('/blog', PostsController::class);
 Route::get('/about', function(){
     return view('about');
 });
-//  this line of code receives multiple get parameters
-Route::get('/michael/adetona/{userid}/{password}', function($userid, $password){
-    return "Dear Michael Adetona, Your User id and password is: ".$userid. "<br/>".$password;
-});
 Auth::routes();
-Route::get('redtokenomics', function(){
-    return view('redtokinomics');
-});
 Route::get('checkout', function(){
     return view('checkout');
 });

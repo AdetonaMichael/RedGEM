@@ -2,7 +2,7 @@
 
 @section('content')
 <section>
-    <img src="images/gem1.png" class="fixed lg:block inset-0 h-full w-full" style="z-index:-1;">
+    <img src="images/abstract.jpg" class="fixed lg:block inset-0 h-full w-full" style="z-index:-1;">
     <div id="hero1"  class="w-full h-screen flex flex-col justify-center items-center">
         <img src="images/security.svg" class="hover:scale-75 hidden lg:block w-1/2  transition-all duration-500 transform mx-auto"/>
     <form method="POST" action="{{ route('login') }}" class="flex flex-col justify-center items-center w-1/2">

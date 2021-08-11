@@ -40,24 +40,24 @@ RedGEM Home
             aria-hidden="true"></i>
         </div>
         <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">I.C.O TIER 1</h2>
-        <p class="text-xl leading-10">Supply: 7 500 000
-            Goal: 1000 BNB
-            Funds Raised: 50 BNB
-            Soft Cap:
-            Hard Cap:</p>
+        <div class="text-xl leading-10">
+            <p>Supply: 7 500 000</p>
+            <p>Goal: 1000 BNB</p>
+            <p>Funds Raised: 50 BNB</p>
+            <p>Soft Cap:</p>
+            <p> Hard Cap:</p></div>
 
     </div>
     <div
         class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
 
         <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">TIER 2 COMING SOON</h2>
-        <img class="text-center justify-center" src="images/wallet.svg" height="300" width="400" alt="coming soon RedGEM tier2">
+        <img class="text-center justify-center" src="images/comingsoon.gif" height="300" width="400" alt="coming soon RedGEM tier2">
 
     </div>
     <div
         class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-        <i class="fa fa-address-card fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
-            aria-hidden="true"></i>
+      
         <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">TIER 3 COMING SOON</h2>
       <img src="images/comingsoon.gif" height="300" width="400">
 
@@ -66,14 +66,14 @@ RedGEM Home
 
 
 </div>
-<p class="bg-red-700 text-white p-5 font-sans mx-0">RedGEM Token |</p>
+<p class="bg-red-700 text-white p-5 font-sans mx-0"></p>
 <!--- Token Wizard section  --->
 <div class="tokenwizard md:grid md:grid-cols-2 p-10">
      <div class="description" id="buytoken">
         <p class="text-red-700 text-2xl shadow-lg animate animate-bounce bg-white text-center p-5 md:mx-10">ICO SALE IS OPEN</p>
                  <div class="addresses m-5 leading-7">
             <div class="block">
-                <p class="text-red-700  font-sans font-bold">0x33ae423c0Def21042a0dA738faa3660a0207cfEC</p>
+                {{-- <p class="text-red-700  font-sans">0x33ae423c0Def21042a0dA738faa3660a0207cfEC</p> --}}
                 <span class="text-gray-400 font-bold">
                     RedGEM CONTRACT ADDRESS:
                 </span>
@@ -119,7 +119,7 @@ RedGEM Home
        </div>
      </div>
 </div>
-<p class="bg-red-700 text-white p-5 font-sans mx-0">RedGEM Token |</p>
+<p class="bg-red-700 text-white p-5 font-sans mx-0"></p>
 <!--- token wizard section ---->
 
 

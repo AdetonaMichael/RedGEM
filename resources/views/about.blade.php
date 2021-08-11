@@ -10,13 +10,12 @@ About RedGEM
   <div class="content-holder relative bottom-32">
       <div class="thecontent bg-white shadwow-lg md:grid md:grid-cols-2 md:mx-20 leading-10">
          <div class="industries bg-red-900 text-center justify-center p-10">
-           <p class="text-white text-4xl font-serif font-extrabold mb-3">The RedGEM Technologies, Inc. (TRT Inc.)</p>
-           <div class="text-gray-200 font-sans font-bold text-xl mt-10 leading-10">
-             <p>Is a TECHNOLOGY AND BLOCKCHAIN SOLUTIONS COMPANY incorporated & (Majorly) responsible for using blockchian technology to make existing COMPANIES, GOVERNMENTS OR STARTUPS, etc. raise needed funds to finance their projects. </p>
+           <div class="text-gray-200 font-sans font-bold text-xl mt-8 leading-8">
+             <p>A TECHNOLOGY AND BLOCKCHAIN SOLUTIONS COMPANY responsible for using blockchian technology to make existing COMPANIES, GOVERNMENTS OR STARTUPS, etc. raise needed funds to finance their projects. </p>
              <br/>
-             <p>We are the hallmark for excellent BLOCKCHAIN SERVICES, making amazing people achieve more through innovative & professional solutions-driven mechanism.</p>
+             <p>We make amazing people achieve more through innovative & professional solutions-driven mechanism.</p>
               <br/>
-             <p> We leverage our broad plus deep services (value offerings), our leading edge technology and personalized approach to meet the special needs of a wide range of clients.</p>
+             <p> We leverage our broad plus deep services, our leading edge technology and personalized approach to meet the special needs of a wide range of clients.</p>
            </div>
 
          </div>
@@ -66,24 +65,23 @@ About RedGEM
   </div>
   <div class="content-holder relative">
       <div class="thecontent rounded-2xl my-5 bg-white shadow-lg md:grid md:grid-cols-3 md:mx-20 leading-10">
-         <div class="section1 p-10 font-sans font-extrabold block">
-          <p class="text-2xl text-red-700">Lets Talk</p>
-          <form action="" method="post">
-           <div class="emal"><input type="email" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Email Address"></div>
-           <div class="firstname"><input type="fistname" name="firstname" id="firstname" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="First Name"></div>
-           <div class="lastname"><input type="lastname" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Last Name"></div>
-            <button class="bg-red-700 text-white text-center px-4 mx-4  py-2 my-2 ronded-xl" type="submit"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Message</button>
-          </form>
-         </div>
+         <!--<div class="section1 p-10 font-sans font-extrabold block">-->
+         <!-- <p class="text-2xl text-red-700">Lets Talk</p>-->
+         <!-- <form action="" method="post">-->
+         <!--  <div class="emal"><input type="email" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Email Address"></div>-->
+         <!--  <div class="firstname"><input type="fistname" name="firstname" id="firstname" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="First Name"></div>-->
+         <!--  <div class="lastname"><input type="lastname" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Last Name"></div>-->
+         <!--   <button class="bg-red-700 text-white text-center px-4 mx-4  py-2 my-2 ronded-xl" type="submit"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Message</button>-->
+         <!-- </form>-->
+         <!--</div>-->
          <div class="section2 p-10 font-sans" id="contactus">
            <p class="font-bold text-2xl text-red-700 font-sans"><i class="fa fa-address-card text-red-700" aria-hidden="true"></i> Address</p>
-           <p class="bold">OAU Central Market, Obafemi Awolowo University, Ile-Ife, Osun State, Nigeria.</p>
-           <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-phone-square" aria-hidden="true"></i> Phone</p>
-           <p class="bold"><a href="tel:2348149637835">+2348149637835</a><br>
-            <a href="tel:2348149637835">+2348149637835</a></p>
+           <p class="bold">Mayfair, Ile-Ife, Osun State, Nigeria</p>
+          
+    
          </div>
          <div class="section2 p-10 font-sans">
-           <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-clipboard "></i> Services</p>        
+           <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-clipboard "></i> Our Subsidiaries</p>        
 <ul>
   <li title="Subscription and Cloud Cuisine">RedGEM Cuisine</li>
   <li>RedGEM Mall </li>
@@ -95,20 +93,26 @@ About RedGEM
          </div>
       </div>
   </div>
-  <div class=" h-3/6 banner-holder md:flex justify-around bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
+  <div class=" h-3/6 banner-holder md:flex justify-center bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
     <div class="banner-text  md:m-5 md:p-5 space-y-10 ">
       <p class="font-bold text-6xl text-red-700 m-5 justify-start text-center font-serif">Our Solutions</p>
-        <h1 class="text-4xl font-extrabold text-center md:mt-64">Tell us the Story Behind Your Beauty</h1>
         <ul class="font-2xl font-bold leading-10 text-gray-800">
-          <li>Great Products and Packaging</li>
-          <li>Best Customer Experience in Our subscription Service</li>
-          <li>Efficient(Faster) Delivery Platform. Powered by Robots and Drones</li>
-          <li>Cometitive Price (Charge less) & Offer Much More (Ethical Bribe) Than Others (By Maintaining Low Cost Structure)</li>
-          <li>NetWork Centeres NationWide Operating (Possibly) 24 hours </li>
+            <li> Cryptocurrency Tokens Development</li>
+             <li>Tokenomics & Anti-Whale Mechanism Design</li>
+            <li>Design Of Technical Whitepaper</li>
+            <li>Smart Contracts Verification</li>
+            <li>CoinMarketCap Listing</li>
+            <li>Airdrop Bots Development & Launch</li>
+             <li>Airdrop Campaign</li>
+             <li>I.C.O/S.T.O/I.E.O/I.D.O Campaign</li>
+              <li>Website Development & Launch</li>
+            
+            <li>Software Development & Launch</li>
+            
+            <li>Coin Exchange Listings</li>
+            <li>Crypto Exchanges Development & Launch</li>
         </ul>
-        <div class="button  my-5 p-5">
-        <a href="/blog" class="px-10 py-4 text-center rounded-full bg-yellow-400 text-gray-800 hover:bg-yellow-300 hover:text-gray-900 font-bold">Learn More</a>
-        </div>
+       
       </div>
 
     <div class="bannder-image">
@@ -123,17 +127,17 @@ About RedGEM
     <p class="font-bold text-6xl text-red-700 m-5 justify-start text-center font-serif">Our Team</p>
       <div class="owl-carousel owl-theme">
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ADEBAYO ADEMOLA.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ADEBAYO ADEMOLA</p>
             <p>Head, Business Development</p>
             <p class="bold font-2xl text-red-700"><i>Partner Trillion Ivy Nig. & Co.</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
           </div>
@@ -141,264 +145,232 @@ About RedGEM
           
       <div class="">
       
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ADESANMI SIMILOLUWA.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ADESANMI SIMILOLUWA</p>
             <p ><i>Community Manager</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
           </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" width=200 height=200 src="images/team/ADESANMI EMMANUEL.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl">ADESANMI EMMANUEL</p>
             <p ><i>Blockchain Technology Expert, Business Strategist & Planner</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p> 
           </div>
           </div>
       <div class="h-64 space-y-10">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" width=100 height=100  src="images/team/ADEYEFA ADESOLA.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ADEYEFA ADESOLA J.</p>
             <p ><i>Investor & Forex Trader</i></p>
             <p class="bold font-2xl text-red-500">C.E.O Yef Properties & Enterprise</p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
           </div>
           </div>
       <div class="h-64 space-y-10">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" width=200 height=200  src="images/team/AKINOLA-O GBENRO.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">AKINOLA-O GBENRO</p>
             <p >
               <i>KEY ADVISOR</i></p>
             <p class="bold font-2xl text-red-700"><i>C.E.O justlinks.net</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ARAYOMBO ARAMIDE.jpg"  alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ARAYOMBO ARAMIDE</p>
             <p ></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/AWOTOBI OYEWUMI.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">AWOTOBI OYEWUMI</p>
             <p ><i>Investment Analyst</i></p>
             <p class="bold font-2xl text-red-700"><i>C.E.O TOBITAT Inc</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/Chukwuemeka Linda (10).jpg"alt="team member of ReadGEM">
             <p class="font-bold text-2xl">Chukwuemeka Linda</p>
             <p ><i>Head, Business Planning</i></p>
             <p class="bold font-2xl text-red-700"><i>Partner Trillion Ivy Nig. & Co.</i></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ELUJULO AYOMIKUN.jpg"  alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ELUJULO AYOMIKUN</p>
             <p><i>Head, Business Operations</i></p>
             <p class="bold font-2xl text-red-500"><i>C.O.O Trillion Ivy Nig. & Co.</i></p>
             <p>
               <p class="snav">
-                <ul class="flex text-center justify-around my-5">
-                  <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                  <li><i class="fab fa-twitter fa-2x"></i></li>
-                  <li><i class="fab fa-instagram fa-2x"></i></li>
-                  <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+                <ul class="flex text-center justify-center my-5">
+                 
+                  <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+              
+                  <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
                 </u>
               </p>
           </div>
           </div>
       <div class="h-64">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ODEYEMI TEMITAYO.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">ODEYEMI TEMITAYO</p>
             <p >Project Manager</p>
             <p class="bold font-2xl">Post</p>
            
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p></div>
           </div>
       <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/OKOROAFOR MICHAEL.jpg"  alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">OKOROAFOR MICHAEL</p>
             <p >KEY ADVISOR</p>
             <p class="text-red-500"><i>Co-Founder dataway.ng</i></p>
             <p class="">
               <p class="snav">
-                <ul class="flex text-center justify-around my-5">
-                  <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                  <li><i class="fab fa-twitter fa-2x"></i></li>
-                  <li><i class="fab fa-instagram fa-2x"></i></li>
-                  <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+                <ul class="flex text-center justify-center my-5">
+                 
+                  <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+              
+                  <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
                 </u>
               </p>
             </p>
            </div>
           </div>
       <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/OLADODE TIMOTHY.png" alt="team member of ReadGEM">
             <p class="font-bold text-2xl ">OLADODE TIMOTHY</p>
-            <p >Michael Adetona</p>
+            <p ></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/ONI IYANU.jpg" alt="team member of ReadGEM">
             <p class="font-bold text-2xl">ONI IYANU</p>
-            <p >Michael Adetona</p>
+            <p ></p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       <div class="">
-           <div class="grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
+           <div class="owl_img grid_item_1  bg-white shadow-lg rounded-2xl  p-5 m-3">
             <img class="rounded-full" src="images/team/SAKA MUBARAK.jpg"  alt="team member of ReadGEM">
             <p class="font-bold text-2xl">SAKA MUBARAK</p>
             <p>Project Manager</p>
             <p class="snav">
-              <ul class="flex text-center justify-around my-5">
-                <li><i class="fab fa-facebook fa-2x text-blue-500"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-linkedin fa-2x text-blue-900"></i></li>
+              <ul class="flex text-center justify-center my-5">
+               
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
+            
+                <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
             </p>
            </div>
           </div>
       </div>
   </div>
-  <p class="font-bold text-6xl bg-red-700 m-5 text-white p-5 justify-start text-center font-serif shadow-lg">Our Services</p>
+  <p class="font-bold text-4xl text-red-700 m-5 justify-start text-center font-serif">Our Subsidiaries</p>
   {{-- check out our Resources Page --}}
 <div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
   <div title="Drone Services text-center justify-center" class="p-5 m-5"><img class="imgsvg" src="images/drone.svg" width=100 height=100 alt="Drone Dilivery">
-  <p class="font-sans font-bold text-white bg-red-700 p-5 text-center">Drone Delivery Services</p></div>
-  <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/security2.svg" width=100 height=100 alt="Security Service">
-  <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">Security</p></div>
-  <div title="Food Services" class="p-5 m-5"><img class="imgsvg" src="images/food.svg" alt="food Services" height=100 width=100>
-<p class="font-sans font-bold text-white bg-red-700 p-5 text-center">Cloud Kitchen</p></div>
+  <p class="font-sans font-bold text-white bg-red-700 p-5 text-center">RedGEM Cruise</p></div>
+  <div title="E-Commerce Services" class="p-5 m-5"><img class="imgsvg" src="images/security2.svg" width=100 height=100 alt="E-Commerce Services">
+  <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">RedGEM Mall</p></div>
+  <div title="Subscription & Fast-Food Services" class="p-5 m-5"><img class="imgsvg" src="images/food.svg" alt="Subscription & Fast-Food Services" height=100 width=100>
+<p class="font-sans font-bold text-white bg-red-700 p-5 text-center">RedGEM Cuisine</p></div>
 </div>
 <div class="md:mx-20 rounded-xl text-center justify-center md:grid md:grid-cols-3">
-  <div class="p-5 m-5">3</div>
+  <div class="p-5 m-5"></div>
   <div title="Security Services" class="p-5 m-5"><img class="imgsvg" src="images/connect_2.svg" width=100 height=100 alt="Security Service">
-    <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">Advertising</p></div>
-  <div class="p-5 m-5">3</div>
+    <p class=" font-sans font-bold text-white bg-red-700 p-5 text-center">RedGEM Communications</p></div>
+  <div class="p-5 m-5"></div>
 </div>
       
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-  
-  <script>
-  $(document).ready(function(){
- 
- //top sale owl-carousel
- $(".owl-carousel").owlCarousel({
- loop:true,
- nav:true,
- loop: true,
- autoplay: false,
- slideTransition: 'linear',
- autoplaySpeed: 1000,
- autoplay:true,
- dots:false,
- responsive:{
-     0:{
-         items:1
-     },
-     600:{
-         items:2
-     },
-     1000:{
-         items:3
-     }
- }
- })
- 
-  })
- 
-  </script>
  
   
 @endsection

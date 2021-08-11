@@ -23,7 +23,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdn.tiny.cloud/1/914cbs1n4e1r1683f7ere86yes0kemwesp1tctsdsft2pq6k/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     <!-- Styles -->
-    <link rel="icon" href="{{ URL::asset('/images/redgemlogo.ico') }}" type="image/x-icon"/>
+    <link rel="icon" href="{{ URL::asset('/images/RedGEM.ico') }}" type="image/x-icon"/>
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
@@ -51,10 +51,6 @@
                     </div>
                     
                     {{-- primary nav here --}}
-
-                        
-                      
- 
                     <div class="md:flex hidden items-center space-x-3">
                         <a class="px-3 text-gray-200 hover:text-gray-000 " href="resource_1/RedGEM.pdf" download>White Paper</a>
                         <div class="dropdown inline-block relative">
@@ -63,7 +59,6 @@
                               <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                             </button>
                             <ul class="dropdown-menu absolute hidden bg-white text-gray-700 pt-1">
-                              <li class=""><a class="bg-gray-200 hover:bg-gray-400 hover:text-red-600 py-4 px-6 block whitespace-no-wrap" href="{{ route('blog.index') }}">Blog</a></li>
                             </ul>
                           </div>
                         <a class="px-3 text-gray-200 hover:text-gray-000 " href="#contactus">Contact</a>
@@ -99,10 +94,8 @@
                     </div>
                     {{-- mobile menu --}}
                     <div class="mobile-menu border-b-2 border-gray-400 hidden md:hidden pb-5">
-                        {{-- <a class="block py-4 px-4 text-sm hover:bg-gray-100" href="/redtokenomics">Red Tokenomics</a> --}}
-                        <a  class="block py-4 px-4 text-sm hover:bg-gray-100" href="/blog">Blog</a>
-                        <a class="block  py-4 px-4 text-sm hover:text-gray-100 " href="resource_1/RedGEM.pdf" download>White Paper</a>
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100" href="/about">About</a>
+                        <a class="block  py-4 px-4 text-sm hover:text-gray-100 " href="resource_1/RedGEM.pdf" download>White Paper</a>
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100 my-2" href="#contactus">Contact</a>
                         @guest
                         <a class="py-5 px-3 font-bold  md:text-white" href="{{ route('login') }}">{{ __('Login') }}</a>

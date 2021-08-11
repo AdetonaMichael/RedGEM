@@ -13,9 +13,7 @@ class PagesController extends Controller
     public function about(){
         return view('about');
     }
-    public function redtokinomics(){
-        return view('redtokinomics');
-    }
+
     public function checkout(){
         return view('checkout');
     }
