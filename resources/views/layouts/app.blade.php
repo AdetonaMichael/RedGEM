@@ -30,9 +30,6 @@
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
         <header>
-                <div>
-                  
-                </div>
                 <nav  style="z-index:1;" class="font-bold shadow-lg left-0 right-0">
                     {{-- navbar goes here --}}
                     <div class="mr-10">

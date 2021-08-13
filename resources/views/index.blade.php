@@ -17,7 +17,7 @@ RedGEM Home
 </div>
 {{-- <p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p> --}}
 <div
-    class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
+    class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
         <h2 class="text-3xl counter" data-target="3000">0</h2>
         <p class="py-3 text-gray-400 text-xl">Total Number of Accounts</p>
@@ -31,42 +31,7 @@ RedGEM Home
         <p class="py-3 text-gray-400 text-xl">Block height</p>
     </div>
 </div>
-
-<div class="mx-0 min-h-4/5 text-center text-gray-900 justify-around md:grid md:grid-cols-3 p-10 ">
-    <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-        <div class="text-center justify-center blockchain_image">
-            <i class="fa fa-spinner fa-spin fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
-            aria-hidden="true"></i>
-        </div>
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">I.C.O TIER 1</h2>
-        <div class="text-xl leading-10">
-            <p>Supply: 7 500 000</p>
-            <p>Goal: 1000 BNB</p>
-            <p>Funds Raised: 50 BNB</p>
-            <p>Soft Cap:</p>
-            <p> Hard Cap:</p></div>
-
-    </div>
-    <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">TIER 2 COMING SOON</h2>
-        <img class="text-center justify-center" src="images/comingsoon.gif" height="300" width="400" alt="coming soon RedGEM tier2">
-
-    </div>
-    <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-      
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">TIER 3 COMING SOON</h2>
-      <img src="images/comingsoon.gif" height="300" width="400">
-
-    </div>
-
-
-
-</div>
-<p class="bg-red-700 text-white p-5 font-sans mx-0"></p>
+<p class="bg-red-700 text-white p-2 font-sans mx-0"></p>
 <!--- Token Wizard section  --->
 <div class="tokenwizard md:grid md:grid-cols-2 p-10">
      <div class="description" id="buytoken">
@@ -112,23 +77,77 @@ RedGEM Home
                 </div>
             </div>
     </div>
-   <div class="text-center justify-center"> <a class="px-8 py-4 text-center font-bold font-sans hover:text-yellow-200 hover:bg-gray-700 text-yellow-300 bg-gray-800 justify-center rounded-full">Buy Token</a></div>
+   <div class="text-center justify-center"> <a href="/checkout" class="px-8 py-4 text-center font-bold font-sans hover:text-yellow-200 hover:bg-gray-700 text-yellow-300 bg-gray-800 justify-center rounded-full">Buy Token</a></div>
     <p class="font-sans text-center text-red-700 font-extrabold my-2 py-5">WE ACCEPT </p>
        <div class="paymenticons flex space-x-3 justify-center text-center my-5">
            <img class="p-5 bg-gray-800" src="images/binance.svg" alt="binance logo image" height=100 width=200/>
        </div>
      </div>
 </div>
-<p class="bg-red-700 text-white p-5 font-sans mx-0"></p>
+<p class="bg-red-700 text-white p-2 font-sans mx-0"></p>
 <!--- token wizard section ---->
+<div class="mx-0 min-h-4/5 text-center text-gray-900 justify-around md:grid md:grid-cols-3 p-10 ">
+    <div
+        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+        <div class="text-center justify-center blockchain_image">
+            <i class="fa fa-spinner fa-spin fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
+            aria-hidden="true"></i>
+        </div>
+        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">I.C.O TIER 1</h2>
+        <div class="text-xl leading-10">
+            <p>Supply: 7 500 000</p>
+            <p>Goal: 1000 BNB</p>
+            <p>Funds Raised: 50 BNB</p>
+            <p>Soft Cap:</p>
+            <p> Hard Cap:</p></div>
+
+    </div>
+    <div
+        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+
+        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">TIER 2 COMING SOON</h2>
+        <img class="text-center justify-center" src="images/comingsoon.gif" height="300" width="400" alt="coming soon RedGEM tier2">
+
+    </div>
+    <div
+        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+      
+        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">TIER 3 COMING SOON</h2>
+      <img src="images/comingsoon.gif" height="300" width="400">
+
+    </div>
 
 
 
-
-
-
-
-
+</div>
 
 
 @endsection
+<script>
+    
+// Date count down code
+const countdown = () => {
+    const countDate = new Date ("September 24, 2021 00:00:00").getTime();
+    const now = new Date().getTime();
+    const gap = countDate - now; 
+
+    // How does time work exactly ?
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    // Calculating it
+    const textDay  = Math.floor(gap / day);
+    const textHour = Math.floor((gap % day) /hour );
+    const textMinute = Math.floor((gap % hour)/ minute);
+    const textSecond = Math.floor((gap % minute)/ second);
+
+    document.querySelector('.day').innerText = textDay;
+    document.querySelector('.hour').innerText = textHour;
+    document.querySelector('.minute').innerText = textMinute;
+    document.querySelector('.second').innerText = textSecond;
+};
+
+setInterval(countdown, 1000);
+</script>

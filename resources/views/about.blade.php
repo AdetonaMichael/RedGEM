@@ -5,7 +5,7 @@ About RedGEM
 @section('content')
 
     <div class="background-image grid grid-cols-1 m-auto">
-  </div>
+    </div>
 
   <div class="content-holder relative bottom-32">
       <div class="thecontent bg-white shadwow-lg md:grid md:grid-cols-2 md:mx-20 leading-10">
@@ -93,7 +93,7 @@ About RedGEM
          </div>
       </div>
   </div>
-  <div class=" h-3/6 banner-holder md:flex justify-center bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
+  <div class=" banner-holder md:flex justify-center bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
     <div class="banner-text  md:m-5 md:p-5 space-y-10 ">
       <p class="font-bold text-6xl text-red-700 m-5 justify-start text-center font-serif">Our Solutions</p>
         <ul class="font-2xl font-bold leading-10 text-gray-800">
@@ -115,7 +115,7 @@ About RedGEM
        
       </div>
 
-    <div class="bannder-image">
+    <div class="bannder-image mt-5">
          <img src="images/oursolution.svg" alt="our solution image">
     </div>
 </div>
@@ -374,3 +374,31 @@ About RedGEM
  
   
 @endsection
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+  //top sale owl-carousel
+  $(".owl-carousel").owlCarousel({
+  loop:true,
+  nav:true,
+  loop: true,
+  autoplay: false,
+  slideTransition: 'linear',
+  autoplaySpeed: 1000,
+  autoplay:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:3
+      }
+  }
+  })
+  });
+  
+  </script>,
