@@ -17,7 +17,7 @@ RedGEM Home
 </div>
 {{-- <p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p> --}}
 <div
-    class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block grid md:grid-cols-3">
+    class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
         <h2 class="text-3xl counter" data-target="3000">0</h2>
         <p class="py-3 text-gray-400 text-xl">Total Number of Accounts</p>

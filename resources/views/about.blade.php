@@ -198,7 +198,7 @@ About RedGEM
             <p class="snav">
               <ul class="flex text-center justify-center my-5">
                
-                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4 px-4"></i></li>
+                <li><i class="fab fa-twitter fa-2x text-gray-400 px-4"></i></li>
             
                 <li><i class="fab fa-linkedin fa-2x text-gray-400"></i></li>
               </u>
