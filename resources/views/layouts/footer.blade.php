@@ -19,7 +19,7 @@
         <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/privacy_policy">Privacy Policy</a></li>
         </ul>
     </div>
     <div class="sec contact">

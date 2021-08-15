@@ -10,7 +10,7 @@ About RedGEM
   <div class="content-holder relative bottom-32">
       <div class="thecontent bg-white shadwow-lg md:grid md:grid-cols-2 md:mx-20 leading-10">
          <div class="industries bg-red-900 text-center justify-center p-10">
-           <div class="text-gray-200 font-sans font-bold text-xl mt-8 leading-8">
+           <div class="text-gray-200 font-sans font-bold text-xl mt-2 leading-8">
              <p>A TECHNOLOGY AND BLOCKCHAIN SOLUTIONS COMPANY responsible for using blockchian technology to make existing COMPANIES, GOVERNMENTS OR STARTUPS, etc. raise needed funds to finance their projects. </p>
              <br/>
              <p>We make amazing people achieve more through innovative & professional solutions-driven mechanism.</p>
@@ -65,20 +65,9 @@ About RedGEM
   </div>
   <div class="content-holder relative">
       <div class="thecontent rounded-2xl my-5 bg-white shadow-lg md:grid md:grid-cols-3 md:mx-20 leading-10">
-         <!--<div class="section1 p-10 font-sans font-extrabold block">-->
-         <!-- <p class="text-2xl text-red-700">Lets Talk</p>-->
-         <!-- <form action="" method="post">-->
-         <!--  <div class="emal"><input type="email" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Email Address"></div>-->
-         <!--  <div class="firstname"><input type="fistname" name="firstname" id="firstname" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="First Name"></div>-->
-         <!--  <div class="lastname"><input type="lastname" name="email" id="email" size=40 class="border-b-2 pb-2 mb-2 border-gray-400" placeholder="Last Name"></div>-->
-         <!--   <button class="bg-red-700 text-white text-center px-4 mx-4  py-2 my-2 ronded-xl" type="submit"> <i class="fa fa-envelope" aria-hidden="true"></i> Send Message</button>-->
-         <!-- </form>-->
-         <!--</div>-->
          <div class="section2 p-10 font-sans" id="contactus">
            <p class="font-bold text-2xl text-red-700 font-sans"><i class="fa fa-address-card text-red-700" aria-hidden="true"></i> Address</p>
            <p class="bold">Mayfair, Ile-Ife, Osun State, Nigeria</p>
-          
-    
          </div>
          <div class="section2 p-10 font-sans">
            <p class="font-bold text-red-700 font-sans text-2xl"><i class="fa fa-clipboard "></i> Our Subsidiaries</p>        
@@ -116,7 +105,7 @@ About RedGEM
       </div>
 
     <div class="bannder-image mt-5">
-         <img src="images/oursolution.svg" alt="our solution image">
+         <img src="images/team.svg" alt="our solution image">
     </div>
 </div>
  <!---------------- soape------------->

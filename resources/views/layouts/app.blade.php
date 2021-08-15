@@ -50,12 +50,15 @@
                     {{-- primary nav here --}}
                     <div class="md:flex hidden items-center space-x-3">
                         <a class="px-3 text-gray-200 hover:text-gray-000 " href="resource_1/RedGEM.pdf" download>White Paper</a>
-                        <div class="dropdown inline-block relative">
+                        <div class="dropdown  relative">
                             <button class=" text-gray-200 font-semibold py-2 px-4 inline-flex items-center">
                               <span class="mr-1">Pages</span>
                               <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                             </button>
-                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 pt-1">
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 pt-1 p-auto w-auto">
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Cuisine</a></li>
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Cruise</a></li>
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Mall</a></li>
                             </ul>
                           </div>
                         <a class="px-3 text-gray-200 hover:text-gray-000 " href="#contactus">Contact</a>
@@ -93,7 +96,19 @@
                     <div class="mobile-menu border-b-2 border-gray-400 hidden md:hidden pb-5">
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100" href="/about">About</a>
                         <a class="block  py-4 px-4 text-sm hover:text-gray-100 " href="resource_1/RedGEM.pdf" download>White Paper</a>
+                        <div class="dropdown  relative transition duration-100">
+                            <button class=" text-gray-200 font-semibold py-2 px-4 inline-flex items-center">
+                              <span class="mr-4 text-gray-900 font-bold">Pages</span>
+                              <svg class="fill-current h-4 w-4 text-gray-900 font-bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                            </button>
+                            <ul class="dropdown-menu absolute hidden bg-white text-gray-700 pt-1 p-auto w-auto">
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Cuisine</a></li>
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Cruise</a></li>
+                            <li><a class="block mx-10 py-4 px-4 text-sm hover:bg-gray-100 "href="#">RedGEM Mall</a></li>
+                            </ul>
+                          </div>
                         <a  class="block py-4 px-4 text-sm hover:bg-gray-100 my-2" href="#contactus">Contact</a>
+                       
                         @guest
                         <a class="py-5 px-3 font-bold  md:text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))

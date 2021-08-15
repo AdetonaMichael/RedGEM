@@ -15,6 +15,12 @@
         size: cover;
     }
 }
+.checkout_background, {
+background-image:repeating-linear-gradient(to left top, #690303, #140606 20px);
+}
+.ppbackground{
+    background-image:linear-gradient(to right bottom, red, green);
+}
 .redgem_ico{
    box-shadow: -6px 3px 20px 20px rgb(0 0 0 / 10%), 0px -2px 20px 20px rgb(0 0 0 / 5%); 
 }
@@ -358,4 +364,24 @@ footer p{
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+.quantity{
+    display:flex;
+    justify-content:center;
+}
+.quantity button{
+    width:25px;
+    height:30px;
+    border:1px solid #000;
+    color:#000;
+    border-radius:0;
+    background:#fff;
+}
+.quantity input{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    text-align: center;
+    width:50px;
+    font-size:20px;
+    font-weight:300;
 }

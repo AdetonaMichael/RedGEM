@@ -17,5 +17,8 @@ class PagesController extends Controller
     public function checkout(){
         return view('checkout');
     }
+    public function privacy_policy(){
+        return view('privacy_policy');
+    }
 
 }

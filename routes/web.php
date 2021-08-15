@@ -23,6 +23,6 @@ Auth::routes();
 Route::get('checkout', function(){
     return view('checkout');
 });
-
+Route::get('privacy_policy', [PagesController::class, 'privacy_policy']);
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

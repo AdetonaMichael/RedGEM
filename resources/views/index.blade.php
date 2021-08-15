@@ -15,7 +15,7 @@ RedGEM Home
 
 
 </div>
-{{-- <p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p> --}}
+<p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p>
 <div
     class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
@@ -77,24 +77,22 @@ RedGEM Home
                 </div>
             </div>
     </div>
-   <div class="text-center justify-center"> <a href="/checkout" class="px-8 py-4 text-center font-bold font-sans hover:text-yellow-200 hover:bg-gray-700 text-yellow-300 bg-gray-800 justify-center rounded-full">Buy Token</a></div>
-    <p class="font-sans text-center text-red-700 font-extrabold my-2 py-5">WE ACCEPT </p>
-       <div class="paymenticons flex space-x-3 justify-center text-center my-5">
-           <img class="p-5 bg-gray-800" src="images/binance.svg" alt="binance logo image" height=100 width=200/>
-       </div>
+   <div class="text-center justify-center my-10"> <a href="/checkout" class="px-8 py-4 text-center font-bold font-sans hover:text-gray-200 hover:bg-gray-900 text-white bg-black justify-center rounded-full">Buy Token</a></div>
+    
      </div>
 </div>
 <p class="bg-red-700 text-white p-2 font-sans mx-0"></p>
 <!--- token wizard section ---->
 <div class="mx-0 min-h-4/5 text-center text-gray-900 justify-around md:grid md:grid-cols-3 p-10 ">
     <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
-        <div class="text-center justify-center blockchain_image">
-            <i class="fa fa-spinner fa-spin fa-4x text-red-700 border-red-700  p-5 borde-dashed hover:animate-pulse border-8 rounded-full m-5 "
+        class="holder1 text-center rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-3 shadow-2xl md:flex md:h-auto">
+        <div class="text-center justify-center blockchain_image border-red-700  md:border-r-4 block">
+            <h2 class="text-2xl font-bold  pb-2">I.C.O TIER 1</h2>
+            <i class="fa fa-spinner fa-spin fa-2x text-red-700 border-red-700  p-5 border-dashed hover:animate-pulse border-8 rounded-full m-5 "
             aria-hidden="true"></i>
         </div>
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">I.C.O TIER 1</h2>
-        <div class="text-xl leading-10">
+       
+        <div class="text-xl leading-5 px-2 text-gray-500">
             <p>Supply: 7 500 000</p>
             <p>Goal: 1000 BNB</p>
             <p>Funds Raised: 50 BNB</p>
@@ -103,18 +101,20 @@ RedGEM Home
 
     </div>
     <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+        class="holder1 text-center  rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl md:flex md:h-auto">
 
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2 ">TIER 2 COMING SOON</h2>
-        <img class="text-center justify-center" src="images/comingsoon.gif" height="300" width="400" alt="coming soon RedGEM tier2">
-
+        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2 ">TIER 2 COMING SOON</h2>
+        <div class="p-2">
+        <img class="text-center justify-center" src="images/comingsoon.gif" height="200" width="200" alt="coming soon RedGEM tier2">
+        </div>
     </div>
     <div
-        class="holder1 text-center  rounded-md animate__animated animate__slideInDown p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl">
+        class="holder1 text-center  rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl md:flex md:h-auto">
       
-        <h2 class="text-2xl font-bold border-red-700 border-b-4 pb-2">TIER 3 COMING SOON</h2>
-      <img src="images/comingsoon.gif" height="300" width="400">
-
+        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2">TIER 3 COMING SOON</h2>
+        <div class="p-2">
+      <img src="images/comingsoon.gif" height="200" width="200">
+        </div>
     </div>
 
 
