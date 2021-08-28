@@ -3,7 +3,7 @@
 @import "tailwindcss/components"; 
 
 @import "tailwindcss/utilities";
-
+html {font-size: 80%;}
 @media(max-width:860px){
     .background-image {
         background-image: url(/images/gem_b.jpg);
@@ -15,7 +15,9 @@
         size: cover;
     }
 }
-.checkout_background, {
+
+
+.checkout_background{
 background-image:repeating-linear-gradient(to left top, #690303, #140606 20px);
 }
 .ppbackground{
@@ -28,7 +30,7 @@ background-image:repeating-linear-gradient(to left top, #690303, #140606 20px);
         background-image: url('/images/gem1.jpg');
         background-repeat: no-repeat;
         height: auto;
-        background-position: right;
+        background-position:center;
 }
 @media(min-width:870px){
     .background-image{
@@ -56,7 +58,7 @@ background-image:repeating-linear-gradient(to left top, #690303, #140606 20px);
     margin-top: 30px;
     margin-left: auto;
 }
-p.snav{
+p.snav, .landing_image{
     margin-right:auto;
     margin-left:auto;
     display:block;

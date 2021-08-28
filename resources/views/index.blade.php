@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-RedGEM Home
+RedGEM | Home
 @endsection
 @section('content')
 
@@ -15,7 +15,6 @@ RedGEM Home
 
 
 </div>
-<p class="mx-0"><marquee behavior="" direction="ltr"><span class="text-red-600">$2.00(ETH) | $0.002(BTC)   </span>     <span class="text-green-500">$2.00(ETH) | $0.002(BTC)</span></marquee></p>
 <div
     class="count-section text-center font-serif justify-around bg-white border-gray-200 shadow-lg rounded mx-10 block md:grid md:grid-cols-3">
     <div class="numcount block  p-3 m-5 border-r-4 border-gray-300 border-l-4">
@@ -87,12 +86,12 @@ RedGEM Home
     <div
         class="holder1 text-center rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-3 shadow-2xl md:flex md:h-auto">
         <div class="text-center justify-center blockchain_image border-red-700  md:border-r-4 block">
-            <h2 class="text-2xl font-bold  pb-2">I.C.O TIER 1</h2>
+            <h2 class="text-2xl font-bold  pb-2 mx-2">I.C.O TIER 1</h2>
             <i class="fa fa-spinner fa-spin fa-2x text-red-700 border-red-700  p-5 border-dashed hover:animate-pulse border-8 rounded-full m-5 "
             aria-hidden="true"></i>
         </div>
        
-        <div class="text-xl leading-5 px-2 text-gray-500">
+        <div class="text-xl leading-10 px-5 text-gray-500 landing_image">
             <p>Supply: 7 500 000</p>
             <p>Goal: 1000 BNB</p>
             <p>Funds Raised: 50 BNB</p>
@@ -103,18 +102,16 @@ RedGEM Home
     <div
         class="holder1 text-center  rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl md:flex md:h-auto">
 
-        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2 ">TIER 2 COMING SOON</h2>
-        <div class="p-2">
-        <img class="text-center justify-center" src="images/comingsoon.gif" height="200" width="200" alt="coming soon RedGEM tier2">
-        </div>
+        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2 mx-2 ">TIER 2 COMING SOON</h2>
+        <img class="landing_image" src="images/comingsoon.gif" height="200" width="200" alt="coming soon RedGEM tier2">
+
     </div>
     <div
         class="holder1 text-center  rounded-2xl  p-10 font-xl font-serif bg-white my-5 md:m-5 space-y-5 shadow-2xl md:flex md:h-auto">
       
-        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2">TIER 3 COMING SOON</h2>
-        <div class="p-2">
-      <img src="images/comingsoon.gif" height="200" width="200">
-        </div>
+        <h2 class="text-2xl font-bold border-red-700 xs:border-b-4 md:border-r-4 pb-2 mx-2">TIER 3 COMING SOON</h2>
+
+      <img class="landing_image" src="images/comingsoon.gif" height="200" width="200">
     </div>
 
 

@@ -1,6 +1,8 @@
 @extends('layouts.app')
+@section('title')
+Buy RedGEM Token
+@endsection
 @section('content')
-
 <div class="h-auto bg-gray-300 checkout_background">
     <div class="py-12">
         <div class="max-w-md mx-auto bg-gray-100 shadow-lg rounded-lg md:max-w-5xl">
@@ -28,8 +30,9 @@
                                 <div class="flex justify-center items-end"> <span class="text-sm font-medium text-gray-400 mr-1">Subtotal:</span><span class="text-lg font-bold text-gray-800">BNB </span> <span id="price" class="text-lg font-bold text-green-500 "> 0.0003</span> </div>
                             </div>
                             <p class="font-sans text-center text-red-700 font-extrabold my-2 py-5">WE ACCEPT </p>
-       <div class="paymenticons flex space-x-3 justify-center text-center my-5">
-           <img class="p-5 bg-gray-800" src="images/binance.svg" alt="binance logo image" height=100 width=200/>
+       <div class="paymenticons flex space-x-3 justify-center text-center my-5 mx-3">
+           <img class="p-5 bg-gray-800" src="images/binance.svg" alt="binance logo image" height=50 width=50/>
+           <img class="p-5 bg-gray-800" src="images/usdt.svg" alt="binance logo image" height=50 width=50/>
        </div>
     
                         </div>
@@ -54,4 +57,6 @@
         </div>
     </div>
 </div>
+@endsection
+@section('script')
 @endsection

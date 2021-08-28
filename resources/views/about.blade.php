@@ -105,7 +105,7 @@ About RedGEM
       </div>
 
     <div class="bannder-image mt-5">
-         <img src="images/team.svg" alt="our solution image">
+         <img src="images/team.svg" style="width:60%; height=60%; maring-left:0px; margin-right:0px; display:inline-block;"  alt="our solution image">
     </div>
 </div>
  <!---------------- soape------------->
@@ -390,4 +390,4 @@ About RedGEM
   })
   });
   
-  </script>,
+  </script>

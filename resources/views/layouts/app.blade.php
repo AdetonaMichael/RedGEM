@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1"/>
     <!--- CDN and external links ---->
    
   <!--owlcarousel-->
@@ -39,7 +39,7 @@
                     {{-- logo comes here --}}
                     <div class="mr-3 flex items-center text-white">
                         <a href="/" class="flex ">
-                         <img src="images/RedGEM.png" width=80 height=80 alt="logo">
+                         <img src="images/RedGEM.png" width=60 height=60 alt="logo">
                         <span>  <a href="{{ url('/') }}" class="font-extrabold  text-2xl">
                             {{ config('app.name', 'RedGEM') }}
                         </a></span>
@@ -140,4 +140,5 @@
         </div>
     </div>
 </body>
+@yield('script')
 </html>
